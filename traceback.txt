@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 198, in script
+    clowm "Ну я пошел. Еще увидимся!"
+Exception: Sayer 'clowm' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 198, in script
+    clowm "Ну я пошел. Еще увидимся!"
+  File "E:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'clowm' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+Детективные изыскания Олега Евгеньевича 1.0
+Wed Jan  4 23:25:01 2023

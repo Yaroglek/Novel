@@ -1,0 +1,18 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+NotADirectoryError: [WinError 267] Неверно задано имя папки: 'Z:\\renpy\\renpy-8.0.3-sdk\\rpp\\game\\script.rpy'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "Z:\renpy\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "Z:\renpy\renpy-8.0.3-sdk\renpy\main.py", line 396, in main
+    for fn in os.listdir(dir):
+NotADirectoryError: [WinError 267] Неверно задано имя папки: 'Z:\\renpy\\renpy-8.0.3-sdk\\rpp\\game\\script.rpy'
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+ 
+Wed Nov 16 17:59:23 2022
